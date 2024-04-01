@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Meteora</title>
+</head>
+
+<body>
+    <nav class="navBar">
+        <div class="navBar__logo">
+            <img src="./Assets projeto _ Loja Meteora/Mobile/Logo mobile.png" alt="Logo Meteora">
+            <ul class="navBar__menu">
+                <li class="navBar__item">
+                    <a class="navBar__link" href="#">Home</a>
+                </li>
+                <li class="navBar__item">
+                    <a class="navBar__link" href="#">Nossa Lojas</a>
+                </li>
+                <li class="navBar__item">
+                    <a class="navBar__link" href="#">Novidades</a>
+                </li>
+                <li class="navBar__item">
+                    <a class="navBar__link" href="#">Promoções</a>
+                </li>
+            </ul> 
+            <div class="hamburger">
+                <span class="hamburger__bar"></span>
+                <span class="hamburger__bar"></span>
+                <span class="hamburger__bar"></span>
+            </div>      
+        </div>
+
+        <div class="navBar__pesquisa">
+            <input type="text" name="navBar__pesquisa" id="navBar__pesquisa" placeholder="Digite o produto">
+            <button class="btnNavBar">Buscar</button>
+        </div>
+    </nav>
+
+    <div class="pesquisa">
+        <input type="text" name="pesquisa" id="pesquisa" placeholder="Digite o produto">
+        <button class="btnSearch">Buscar</button>
+    </div>
+
+    <div class="carrossel">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Assets projeto _ Loja Meteora/Mobile/Banner carousel 1 _ 375.png" class="carousel-img1 d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <div class="caption-1">
+                        <h5></h5>
+                        <p></p>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./Assets projeto _ Loja Meteora/Mobile/Banner carousel 2 _ 375.png" class="carousel-img2 d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <div class="caption-2">
+                        <h5>Coleção Atemporal</h5>
+                        <p>Estilo e qualidade para durar.</p>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./Assets projeto _ Loja Meteora/Mobile/Banner carousel 3 _ 375.png" class="carousel-img3 d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <div class="caption-3">
+                        <h5>Coleção Atemporal</h5>
+                        <p>Alto impacto visual, baixo impacto ambiental!</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <section class="categorias">
+        <div class="categorias__busca">
+            <h3>Busque por categoria:</h3>
+        </div>
+
+        <div class="categorias__secoes">
+            <div class="secoes camisas">
+                <img src="./Assets projeto _ Loja Meteora/Mobile/Categorias/Categoria camiseta.png" alt="Camiseta">
+                <a href="#"><p>Camisas</p></a>
+            </div>
+
+            <div class="secoes bolsas">
+                <img src="./Assets projeto _ Loja Meteora/Mobile/Categorias/Categoria Bolsas.png" alt="Bolsas">
+                <a href="#"><p>Bolsas</p></a>
+            </div>
+
+            <div class="secoes calcados">
+                <img src="./Assets projeto _ Loja Meteora/Mobile/Categorias/Categoria calçados.png" alt="Calçados">
+                <a href="#"><p>Calçados</p></a>
+            </div>
+
+            <div class="secoes calcas">
+                <img src="./Assets projeto _ Loja Meteora/Mobile/Categorias/Categoria calças.png" alt="Calças">
+                <a href="#"><p>Calças</p></a>
+            </div>
+
+            <div class="secoes casacos">
+                <img src="./Assets projeto _ Loja Meteora/Mobile/Categorias/Categoria Casacos.png" alt="Casacos">
+                <a href="#"><p>Casacos</p></a>
+            </div>
+
+            <div class="secoes oculos">
+                <img src="./Assets projeto _ Loja Meteora/Mobile/Categorias/Categoria óculos.png" alt="Óculos">
+                <a href="#"><p>Óculos</p></a>
+            </div>
+
+        </div>
+    </section>
+    
+    <section class="bombando">
+        <h3>Produtos que estão bombando!</h3>
+        <div class="destaques">
+            <div class="destaques__produtos camiseta">
+                <img src="./Assets projeto _ Loja Meteora/Mobile/Imagens cards/Card camiseta.png" alt="">
+                <h4>Camiseta Conforto</h4>
+                <p>Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.</p>
+                <h5>R$70,00</h5>
+                <a href="./produto1.html" class="btnVerMais">Ver mais</a>
+            </div>
+
+            <div class="destaques__produtos calca">
+                <img src="./Assets projeto _ Loja Meteora/Mobile/Imagens cards/Card calça.png" alt="">
+                <h4>Calça Alfaiataria</h4>
+                <p>Modelo Wide Leg alfaiataria em linho. Uma peça para a vida toda!</p>
+                <h5>R$180,00</h5>
+                <a href="./produto2.html" class="btnVerMais">Ver mais</a>
+            </div>
+
+            <div class="destaques__produtos tenis">
+                <img src="./Assets projeto _ Loja Meteora/Mobile/Imagens cards/Card tenis.png" alt="">
+                <h4>Tênis Chunky</h4>
+                <p>Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.</p>
+                <h5>R$250,00</h5>
+                <a href="./produto3.html" class="btnVerMais">Ver mais</a>
+            </div>
+
+            <div class="destaques__produtos jaqueta">
+                <img src="./Assets projeto _ Loja Meteora/Mobile/Imagens cards/Card jaqueta jeans.png" alt="">
+                <h4>Jaqueta Jeans</h4>
+                <p>Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
+                <h5>R$150,00</h5>
+                <a href="./produto4.html" class="btnVerMais">Ver mais</a>
+            </div>
+
+            <div class="destaques__produtos armacao">
+                <img src="./Assets projeto _ Loja Meteora/Mobile/Imagens cards/Cards óculos.png" alt="">
+                <h4>Óculos Redondo</h4>
+                <p>Armação metálica em grafite com lentes arredondadas. Sem erro!</p>
+                <h5>R$120,00</h5>
+                <a href="./produto5.html" class="btnVerMais">Ver mais</a>
+            </div>
+
+            <div class="destaques__produtos bolsa">
+                <img src="./Assets projeto _ Loja Meteora/Mobile/Imagens cards/Card bolsa.png" alt="">
+                <h4>Bolsa Coringa</h4>
+                <p>Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!</p>
+                <h5>R$120,00</h5>
+                <a href="./produto6.html" class="btnVerMais">Ver mais</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="facilidades">
+        <h3>Conheça todas as nossa facilidades</h3>
+        <div class="facilidades__disponiveis">
+
+            <div class="facilidades__img">
+                <img src="./Assets projeto _ Loja Meteora/Mobile/Ícones/x-diamond.png" alt="">
+            </div>
+            <div class="facilidades__opcoes">
+                <h4>Pague pelo pix</h4>
+                <p>Ganhe 5% OFF em pagamentos via PIX.</p>
+            </div>
+            
+            <div class="facilidades__img">
+                    <img src="./Assets projeto _ Loja Meteora/Mobile/Ícones/arrow-repeat.png" alt="">
+            </div>
+            <div class="facilidades__opcoes">
+                <h4>Troca grátis</h4>
+                <p>Fique livre para trocar em até 30 dias.</p>
+            </div>
+
+
+            <div class="facilidades__img">
+                <img src="./Assets projeto _ Loja Meteora/Mobile/Ícones/flower1.png" alt="">
+            </div>
+            <div class="facilidades__opcoes">
+                <h4>Sustentabilidade</h4>
+                <p>Moda responsável, que respeita o meio ambiente.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsLetter">
+        <p>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? <strong>Cadastre-se!</strong></p>
+        <div class="enviar">
+            <input type="email" placeholder="Digite seu e-mail">
+            <a href="./confirmacao.html" class="btnEnviar">Enviar</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>2023 &copy; Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+
+    .newsLetter {
+        border: solid 2px #000000;
+        margin: 2rem;
+    }
+    
+    .newsLetter p {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+        margin-top: 2rem;
+    }
+    
+    .enviar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin: 2rem 1rem;
+    }
+    
+    .enviar input {
+        padding: .5rem;
+        width: 70%;
+    }
+    
+    .enviar::placeholder {
+        color: #6c757D;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px; 
+    }
+    
+    .btnEnviar {
+        border: solid 1px #9353FF;
+        background-color: #9353FF;
+        color: #FFFFFF;
+        padding: .5rem;
+        font-size: 16px;
+        font-weight: 500;
+    }

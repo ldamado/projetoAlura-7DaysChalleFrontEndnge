@@ -1,0 +1,277 @@
+.confirmacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: .4rem 1rem;
+}
+
+.confirmacao h2 {
+    margin: 0 5rem 0 2rem;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.x {
+    display: block;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #6C757D;
+}
+
+.bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    border-radius: 10px;
+}
+
+.bar:nth-child(2) {
+    opacity: 0;
+}
+
+.bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    border-radius: 10px;
+}
+
+.infoProduto {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    border: solid 1px #e3e3e6;
+    justify-content: space-between;
+    align-items: inherit;
+}
+
+.descricao {
+    padding: 1rem;
+}
+
+.descricao h4 {
+    margin-bottom: 2rem;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.descricao p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #212529;
+}
+
+.descricao hr {
+    color: #000000;
+    border: solid 0.5px #000000;
+    margin: 1.5rem 0;
+}
+
+.descricao h5 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.descricao .vendido {
+    font-size: 13px;
+    font-weight: 400;
+    color: #ADB5BD;
+}
+
+ .descricao .line {
+    width: 100%;
+    display: block;
+    border: solid 1px #D8D8D8;
+    margin: 1rem 0;
+}
+
+.descricao h6 {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.adicionar {
+    background-color: #9353FF;
+    border: none;
+    color: #FFFFFF;
+    margin: 1rem 0 -1rem 0;
+    padding: .5rem;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cores__radio {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.cores {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem 2.58rem .5rem 1.5rem;
+}
+
+.cores__opcoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 1rem 1rem 0;
+}
+
+.cores.azul {
+    accent-color: #75D7F0;
+}
+
+.cores.off {
+    margin-left: 1.2rem;
+    accent-color: #DEE2E6;
+}
+
+.cores.preto {
+    margin-left: .4rem;
+    accent-color: #000000;
+}
+
+.tamanhos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.tamanhos__input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem 1rem .5rem 0;
+}
+
+.tamanhos__opcoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 1.05rem .5rem 0;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .confirmacao {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .confirmacao h2 {
+        margin: 0 20rem 0 0;
+    }
+
+    .infoProduto {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+    
+    .infoProduto img {
+        margin-bottom: 5rem;
+    }
+
+    .descricao {
+        margin-bottom: 1rem;
+    }
+
+    .descricao h4 {
+        margin: -1.1rem 0 1rem 0;
+    }
+
+    .descricao h5 {
+        margin-bottom: 1rem;
+    }
+
+    .descricao h6 {
+        margin-top: 1rem;
+    }
+
+    .descricao .vendido {
+        margin: 2rem 0 1rem 0;
+    }
+
+    .descricao .line {
+        margin: .5rem 0;
+    }
+
+    .adicionar {
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    
+    .confirmacao {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .confirmacao h2 {
+        margin: 0 75% 0 0;
+    }
+
+    .infoProduto {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+    
+    .infoProduto img {
+        margin-bottom: 5rem;
+    }
+
+    .descricao {
+        margin-bottom: 2.5rem;
+    }
+
+    .destaques__produtos .camiseta{
+        content: url("../Assets projeto _ Loja Meteora/Desktop/Imagens Cards/Camiseta.png");
+    }
+
+    .destaques__produtos .calca{
+        content: url("../Assets projeto _ Loja Meteora/Desktop/Imagens Cards/Calça.png");
+    }
+
+    .destaques__produtos .tenis{
+        content: url("../Assets projeto _ Loja Meteora/Desktop/Imagens Cards/Tenis.png");
+    }
+
+    .destaques__produtos .jaqueta{
+        content: url("../Assets projeto _ Loja Meteora/Desktop/Imagens Cards/Jaqueta.png");
+    }
+
+    .destaques__produtos .armacao{
+        content: url("../Assets projeto _ Loja Meteora/Desktop/Imagens Cards/óculos.png");
+    }
+
+    .destaques__produtos .bolsa{
+        content: url("../Assets projeto _ Loja Meteora/Desktop/Imagens Cards/Bolsa.png");
+    }
+}

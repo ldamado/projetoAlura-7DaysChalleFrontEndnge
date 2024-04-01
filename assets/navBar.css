@@ -1,0 +1,107 @@
+/*Menu hamburguer feito com a ajuda do vídeo de "Web Dev Tutorials": https://www.youtube.com/watch?v=flItyHiDm7E */
+
+.navBar {
+    background-color: #000000;
+}
+
+.navBar__logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 1.5rem;
+}
+
+.navBar__pesquisa {
+    display: none;
+}
+
+.pesquisa {
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pesquisa {
+    padding: .5rem 5rem .5rem .5rem;
+    border: solid #000000 1px;
+    text-align: start;
+    width: 70%;
+}
+
+#pesquisa::placeholder {
+    color: #6C757D;
+}
+
+.btnSearch {
+    background-color: transparent;
+    padding: .5rem 1rem;
+    border: solid #000000 1px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 767px){
+    
+    .navBar ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .hamburger.active {
+        z-index: 1;
+    }
+    
+    .hamburger__bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+        background-color: #DAFF01;
+        z-index: 2;
+    }
+    
+    .hamburger.active .hamburger__bar:nth-child(2){
+        opacity: 0;
+    }
+    
+    .hamburger.active .hamburger__bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburger.active .hamburger__bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
+    .navBar__menu {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 77px;
+        position: fixed;
+        top: -100%;
+        right: .01rem;
+        flex-direction: column;
+        background-color: #343A40;
+        width: 36%;
+        text-align: left;
+        transition: 0.3s;
+        padding-top: 3rem;
+    }
+    
+    .navBar__menu.active {
+        top: -77px;
+        padding-bottom: 1rem;
+        z-index: 1;
+    }
+    
+    .navBar__item {
+        margin: .2rem 1.3rem;
+    }
+    
+    .navBar__link {
+        color: #DAFF01;
+    }
+}

@@ -1,0 +1,46 @@
+
+.bombando h3 {
+    text-align: center;
+    margin: 2rem;
+    font-size: 28px;
+}
+
+.destaques__produtos {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    border: solid 1px #e3e3e6;
+    padding-bottom: 1rem;
+    justify-content: space-between;
+    align-items: inherit;
+}
+
+.destaques__produtos img {
+    content: inherit;
+    height: 442px;   
+}
+
+.destaques__produtos h4 {
+    margin: .5rem;
+}
+
+.destaques__produtos p {
+    margin: .5rem;
+    font-size: 12px;
+}
+
+.destaques__produtos h5 {
+    margin: .5rem;
+    font-size: 16px;
+}
+
+.btnVerMais {
+    margin-left: .5rem;
+    width: 5rem;
+    color: #FFFFFF;
+    background-color: #9353FF;
+    border: none;
+    padding: .5rem;
+    font-weight: 400;
+    font-size: 15px;
+}

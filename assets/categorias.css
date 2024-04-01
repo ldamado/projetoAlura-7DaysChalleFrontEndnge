@@ -1,0 +1,31 @@
+.categorias__busca h3 {
+    text-align: center;
+    margin: 1rem;
+    font-size: 28px;
+}
+
+.categorias__secoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.secoes {
+    margin-bottom: 1rem;
+}
+
+.secoes img {
+    width: 146px;
+    height: 157px;
+}
+
+.secoes p {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: .5rem;
+    width: 146px;
+    height: 30px;
+    padding-bottom: 2rem;
+}
